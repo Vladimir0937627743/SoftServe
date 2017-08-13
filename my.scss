@@ -1,0 +1,17 @@
+$red: #f00;
+$height: 100px;
+
+.header {
+	height: $height;
+	
+	&__logo {
+	    background: $red;
+		
+		&__link {
+		   color: $red;
+		}
+	}
+}
+.footer {
+	height: $height;
+}
